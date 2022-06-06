@@ -605,7 +605,8 @@ p, div {
 
 .ref-name,
 .ref-position,
-.ref-company{
+.ref-company,
+.ref-email{
   color: black;
   font-family: Roboto,Arial;
   font-size: 20px;
