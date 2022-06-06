@@ -596,6 +596,7 @@ p, div {
   background-color: black;
   color: white;
   text-align: center;
+  height: auto;
 }
  .stalker-mode {
     font-family: Roboto, Arial;
@@ -612,35 +613,37 @@ p, div {
 
  .social-media-container {
    display: flex;
-   flex-direction: row;
-   height: 100px;
-   justify-content: space-between;
-   margin-top: 50px;
-   min-width: 420px;
-   margin-left: 35%;
-   margin-right: 35%;
+   height: 35vh;
  }
 
- .social-media-container div {
+.social-media-holder{
+  margin: auto;
+  width: 800px;
+  min-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .social-media-holder div {
    background-color: orangered;
    width: 100px;
    border-style: solid;
    cursor: pointer;
  }
 
- .social-media-container img {
+ .social-media-holder img {
   width:50px;
   padding-top: 25%;
-  
 }
 
-.social-media-container div:hover {
+.social-media-holder div:hover {
   background-color: transparent;
   border-style: solid;
   border-color: orangered;
 }
 
-.social-media-container div:active {
+.social-media-holder div:active {
   background-color: rgba(255, 68, 0, 0.50);
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.50);
