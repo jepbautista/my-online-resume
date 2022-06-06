@@ -605,8 +605,7 @@ p, div {
 
 .ref-name,
 .ref-position,
-.ref-company,
-.ref-email{
+.ref-company{
   color: black;
   font-family: Roboto,Arial;
   font-size: 20px;
@@ -620,7 +619,11 @@ p, div {
 .ref-position{
   font-style: italic;
 }
-
+.ref-email{
+  font-family: Roboto,Arial;
+  font-size: 20px;
+  font-color: red;
+}
 .stalker-mode-container{
   flex: 1.5;
   background-color: black;
