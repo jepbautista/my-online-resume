@@ -157,7 +157,7 @@ p, div {
 .experience-container {
   flex:1;
   height: inherit;
-  margin-left: 230px;
+  margin-left: 10%;
   margin-top: 25px;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
@@ -170,7 +170,7 @@ p, div {
 .education-container {
   flex: 1;
   height: inherit;
-  margin-right: 230px;
+  margin-right: 10%;
   margin-top: 25px;
   background-color: rgba(0, 0, 0, 0.8);
   border-left-style: solid;
@@ -353,8 +353,8 @@ p, div {
   border-width: 5px;
   margin-top: 12%;
   margin-bottom: 12%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: white;
   position: relative;
 }
@@ -370,7 +370,7 @@ p, div {
   text-align: center;
   width:auto;
   border-style: solid; 
-  margin-right: 20%;
+  margin-right: 8%;
   font-family: Roboto,Arial;
   color: white;
   background-color: rgb(15, 15, 15);
@@ -381,7 +381,7 @@ p, div {
 .skill-3,
 .skill-5,
 .skill-7{
-  margin-top: 40%;
+  margin-top: 25%;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 35px;
@@ -406,7 +406,7 @@ p, div {
   text-align: center;
   width:auto;
   border-style: solid; 
-  margin-left: 20%;
+  margin-left: 8%;
   font-family: Roboto,Arial;
   color: white;
   background-color: rgb(15, 15, 15);
@@ -416,7 +416,7 @@ p, div {
 .skill-4,
 .skill-6,
 .skill-8 {
-  margin-top: 40%;
+  margin-top:25%;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 35px;
