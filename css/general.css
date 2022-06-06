@@ -26,8 +26,8 @@ p, div {
 
 .greetings-container {
   position: absolute;
-  left: 130px;
-  top: 120px;
+  left: 5%;
+  top: 10%;
 }
 .greetings-container p{
   color: rgba(255, 255, 255, 0.75);
