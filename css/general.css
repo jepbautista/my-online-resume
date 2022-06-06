@@ -622,7 +622,7 @@ p, div {
 .ref-email{
   font-family: Roboto,Arial;
   font-size: 20px;
-  font-color: red;
+  color: red;
 }
 .stalker-mode-container{
   flex: 1.5;
