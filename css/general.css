@@ -72,7 +72,7 @@ p, div {
 .home-navigator-container {
   position: absolute;
   display: block;
-  width: 490px;
+  width: 350px;
   height: 100vh;
   right: 5px;
   padding-top: 15%;
@@ -87,8 +87,8 @@ p, div {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.8);
   border-color: rgba(255, 255, 255, 0.8);
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
   border-radius: 8px;
   margin:15px;
   cursor: pointer;
@@ -288,9 +288,7 @@ p, div {
   border-bottom: 5px solid rgba(255, 255, 255, 0.479);
   border-top: 5px solid rgba(255, 255, 255, 0.479);
 }
-/* .skill-demo-1-container {
-  background-image: url('/images/web-dev-bg.jpg');
-} */
+
 .skill-demo-1-container img,
 .skill-demo-2-container img,
 .skill-demo-3-container img,
@@ -308,27 +306,7 @@ p, div {
   filter: blur(5px);
   -webkit-filter: blur(3px);
 }
-/* .skill-demo-2-container {
-  background-image: url('/images/photo-edit-bg.jpg');
-}
-.skill-demo-3-container{
-  background-image: url('/images/video-edit-bg.jpg');
-}
-.skill-demo-4-container{
-  background-image: url('/images/copywriting-bg.jpg');
-}
-.skill-demo-5-container{
-  background-image: url('/images/lead-gen-bg.jpg');
-}
-.skill-demo-6-container{
-  background-image: url('/images/bookkeeping-bg.jpg');
-}
-.skill-demo-7-container{
-  background-image: url('/images/seo-bg.jpg');
-}
-.skill-demo-8-container{
-  background-image: url('/images/fba-amazon-bg.jpg');
-} */
+
 
 .skill-demo-1-container::before,
 .skill-demo-2-container::before,
@@ -373,7 +351,7 @@ p, div {
   margin-right: 8%;
   font-family: Roboto,Arial;
   color: white;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(15, 15, 15,.8);
   position: relative;
   
 }
@@ -381,7 +359,7 @@ p, div {
 .skill-3,
 .skill-5,
 .skill-7{
-  margin-top: 25%;
+  margin-top: 28%;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 35px;
@@ -395,8 +373,10 @@ p, div {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  line-height: 40px;
 }
 
 .skill-2, .skill-2-description,
@@ -409,14 +389,14 @@ p, div {
   margin-left: 8%;
   font-family: Roboto,Arial;
   color: white;
-  background-color: rgb(15, 15, 15);
+  background-color: rgba(15, 15, 15, 0.8);
   position: relative;
 }
 .skill-2,
 .skill-4,
 .skill-6,
 .skill-8 {
-  margin-top:25%;
+  margin-top: 28%;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 35px;
@@ -430,8 +410,10 @@ p, div {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 25px;
-  padding-left: 10px;
-  padding-right:10px;
+  padding-left: 30px;
+  padding-right:30px;
+  text-align: justify;
+  line-height: 40px;
 }
 
 .contact-container{
